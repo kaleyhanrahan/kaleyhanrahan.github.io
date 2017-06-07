@@ -106,8 +106,7 @@
         var data; // define a container variable to hold the data
         
         function getData() {
-            //d3.selectAll("svg > *").remove();   // clear the SVG
-            d3.csv("dfMap_city2.csv", function(d) {
+            d3.csv("/dfMap_city2.csv", function(d) {
                 data = d;
                 draw();
             });
