@@ -3,16 +3,21 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+nav {
+    border-bottom: 1px solid #d5d5d5;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color:darkgrey;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+
 }
 a {
     text-decoration: none;
@@ -31,7 +36,7 @@ h2 {
     color: darkgrey;
     font-size: 1em;
     line-height: 0em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Arial','Sans-Serif';
 }
 p {
     font-size: 1em;
@@ -43,7 +48,6 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
